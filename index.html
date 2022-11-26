@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BMI - Body mass index">
+    <meta name="author" content="Anselmo de Paula Eller">
+    <link rel="shortcut icon" href="./img/baseline_monitor_heart_white_24dp.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>BMI By Anselmo Eller</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            BMI Calculator
+        </h1>
+    </header>
+    <main>
+        <article>
+            <h1>BMI is the acronym for Body Mass Index</h1>
+            <p>BMI is a parameter adopted by the World Health Organization to calculate the ideal weight of each person.</p>
+            <p>The index is calculated as follows:</p>
+            <p>the patient's weight is divided by their height squared. </p>
+            <p> An individual is said to have normal weight when <em>the BMI result is between 18.5 and 24.9.</em></p>
+            <p>Fill in all fields to see your BMI...</p>
+        </article>
+        <section class="showBmi">
+            <span class="showResultBMI">
+  
+            </span>
+        </section>
+        <section class="infoInputsArea">
+            <label for="heightOfPerson">Inform your height</label>
+            <input id="heightOfPerson" type="number" placeholder="eg. 1.80" class="inputStyles">
+
+            <label class="weightOfPerson" for="weightOfPerson">Inform your weight</label>
+            <input id="weightOfPerson" type="number" placeholder="eg. 100" class="inputStyles">
+
+            <div>
+                <button class="btnCalculateBMI">Calculate</button>
+                <button class="btnResetBMI">Reset</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <small>
+            Created by Anselmo de Paula Eller
+        </small>
+    </footer>
+    
+</body>
+</html>
